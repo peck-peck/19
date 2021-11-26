@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import LikeButton
+from like.models import LikeButton
 from django.shortcuts import get_object_or_404
 import json
 from django.http import HttpResponse
